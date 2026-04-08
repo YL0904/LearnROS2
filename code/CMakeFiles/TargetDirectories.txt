@@ -1,0 +1,3 @@
+/home/nrrr/ros2Learn/code/CMakeFiles/learn_cmake.dir
+/home/nrrr/ros2Learn/code/CMakeFiles/edit_cache.dir
+/home/nrrr/ros2Learn/code/CMakeFiles/rebuild_cache.dir
