@@ -1,0 +1,53 @@
+[0.005s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces
+[0.016s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.169s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.185s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.212s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.446s] Error parsing '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml':
+[1.496s] Traceback (most recent call last):
+[1.496s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.496s]     root = dom.parseString(data)
+[1.496s]            ^^^^^^^^^^^^^^^^^^^^^
+[1.496s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[1.496s]     return expatbuilder.parseString(string)
+[1.496s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.496s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[1.496s]     return builder.parseString(string)
+[1.496s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.496s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[1.496s]     parser.Parse(string, True)
+[1.497s] xml.parsers.expat.ExpatError: mismatched tag: line 21, column 2
+[1.497s] 
+[1.497s] During handling of the above exception, another exception occurred:
+[1.497s] 
+[1.497s] Traceback (most recent call last):
+[1.497s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.497s]     main()
+[1.497s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.497s]     raise e
+[1.497s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.497s]     package = parse_package_string(
+[1.497s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.497s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.497s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.497s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml':
+[1.497s] The manifest contains invalid XML:
+[1.497s] mismatched tag: line 21, column 2
+[1.513s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.513s]   execute_process(/usr/bin/python3
+[1.513s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.513s]   /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml
+[1.513s]   /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces/ament_cmake_core/package.cmake)
+[1.514s]   returned error code 1
+[1.514s] Call Stack (most recent call first):
+[1.514s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.514s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.514s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.514s] 
+[1.514s] [0m
+[1.514s] -- Configuring incomplete, errors occurred!
+[1.516s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces

@@ -12,6 +12,7 @@ setup.py
 demo_python_topic/__init__.py
 demo_python_topic/novel_pub_node.py
 demo_python_topic/novel_sub_node.py
+demo_python_topic/novel_sub_node2.py
 resource/demo_python_topic
 test/test_copyright.py
 test/test_flake8.py

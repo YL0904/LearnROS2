@@ -1,0 +1,39 @@
+[0.502s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_publisher': AMENT_PREFIX_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build install --record /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.620s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.627s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.628s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.628s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.628s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.628s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.643s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.643s] adding license file 'LICENSE'
+[0.643s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.643s] running build_py
+[0.644s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build
+[0.644s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib
+[0.644s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher
+[0.644s] copying status_publisher/__init__.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher
+[0.644s] copying status_publisher/sys_status_pub.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher
+[0.644s] running install
+[0.647s] running install_lib
+[0.655s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.655s] copying /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.655s] copying /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.655s] byte-compiling /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher/__init__.py to __init__.cpython-312.pyc
+[0.655s] byte-compiling /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[0.655s] running install_data
+[0.655s] Sorry: IndentationError: unindent does not match any outer indentation level (sys_status_pub.py, line 25)
+[0.655s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/share/ament_index
+[0.655s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/share/ament_index/resource_index
+[0.655s] creating /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/share/ament_index/resource_index/packages
+[0.655s] copying resource/status_publisher -> /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/share/ament_index/resource_index/packages
+[0.656s] copying package.xml -> /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/share/status_publisher
+[0.656s] running install_egg_info
+[0.664s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[0.664s] running install_scripts
+[0.721s] Installing sys_status_pub script to /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/status_publisher
+[0.721s] writing list of installed files to '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log'
+[0.735s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build install --record /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log --single-version-externally-managed install_data

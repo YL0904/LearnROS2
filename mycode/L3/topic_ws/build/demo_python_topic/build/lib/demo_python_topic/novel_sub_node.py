@@ -23,6 +23,7 @@ class NovelSubNode(Node):
             if self.novel_queue_.qsize() > 0: # 如果队列中有小说内容
                 text = self.novel_queue_.get() # 从队列中获取小说内容
                 speaker.say(text) # 使用espeak-ng朗读小说内容
+                self.get_logger().info(f"朗读小说内容: {text}")
                 speaker.wait() # 等待朗读完成
             else:
                 time.sleep(0.1) # 如果队列为空，稍微等待一下

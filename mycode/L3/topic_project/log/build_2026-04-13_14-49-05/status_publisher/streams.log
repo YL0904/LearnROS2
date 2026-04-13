@@ -1,0 +1,25 @@
+[0.392s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build install --record /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.513s] running egg_info
+[0.520s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.520s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.520s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.520s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.536s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.536s] adding license file 'LICENSE'
+[0.536s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.536s] running build
+[0.536s] running build_py
+[0.536s] copying status_publisher/sys_status_pub.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher
+[0.536s] running install
+[0.540s] running install_lib
+[0.548s] copying /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[0.548s] byte-compiling /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[0.548s] running install_data
+[0.548s] running install_egg_info
+[0.557s] removing '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[0.557s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[0.557s] running install_scripts
+[0.612s] Installing sys_status_pub script to /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/status_publisher
+[0.612s] writing list of installed files to '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log'
+[0.624s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages:/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/build install --record /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_publisher/install.log --single-version-externally-managed install_data

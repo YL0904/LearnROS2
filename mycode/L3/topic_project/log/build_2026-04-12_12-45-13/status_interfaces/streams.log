@@ -1,0 +1,19 @@
+[0.005s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces
+[0.015s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.154s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.168s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.197s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.198s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:82 (message):
+[0.198s]   rosidl_generate_interfaces() the passed absolute file
+[0.198s]   '/msg/SysytemStatus.msg' must be represented as an absolute base path
+[0.199s]   separated by a colon from the relative path to the interface file
+[0.199s] Call Stack (most recent call first):
+[0.199s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.199s] 
+[0.199s] [0m
+[0.199s] -- Configuring incomplete, errors occurred!
+[0.201s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces

@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000271] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.004352] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.004859] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces'], 'cwd': '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nrrr', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nrrr', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/nrrr/ros2Learn/mycode/L3', 'TERM_PROGRAM_VERSION': '1.114.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2272', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '8683', 'BUNDLED_DEBUGPY_PATH': '/home/nrrr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/nrrr/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9490', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'nrrr', 'JOURNAL_STREAM': '9:61535', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nrrr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/nrrr/.local/bin:/home/nrrr/anaconda3/condabin:/home/nrrr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/nrrr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/nrrr/.local/bin:/home/nrrr/.local/bin:/home/nrrr/.local/bin:/home/nrrr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nrrr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/nrrr-JIGUANG-Series:@/tmp/.ICE-unix/8622,unix/nrrr-JIGUANG-Series:/tmp/.ICE-unix/8622', 'INVOCATION_ID': '507b50651a344a9182e02eda14f06e20', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/nrrr/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8890b37ad26bc68b.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/nrrr/.config/Code/User/workspaceStorage/6856dfa6c04fc48232b42d7aecff6fe5/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-331927b7d7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/nrrr/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/nrrr/anaconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nrrr/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.016311] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099920] (-) TimerEvent: {}
+[0.169672] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.184890] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.189525] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.195416] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.200019] (-) TimerEvent: {}
+[0.202383] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.208543] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.212414] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.300093] (-) TimerEvent: {}
+[0.400374] (-) TimerEvent: {}
+[0.446290] (status_interfaces) StderrLine: {'line': b"Error parsing '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml':\n"}
+[0.500531] (-) TimerEvent: {}
+[0.600831] (-) TimerEvent: {}
+[0.701228] (-) TimerEvent: {}
+[0.801520] (-) TimerEvent: {}
+[0.901713] (-) TimerEvent: {}
+[1.001992] (-) TimerEvent: {}
+[1.102341] (-) TimerEvent: {}
+[1.202814] (-) TimerEvent: {}
+[1.303056] (-) TimerEvent: {}
+[1.403306] (-) TimerEvent: {}
+[1.496144] (status_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.496268] (status_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[1.496305] (status_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[1.496335] (status_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.496364] (status_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString\n'}
+[1.496488] (status_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[1.496569] (status_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.496603] (status_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[1.496653] (status_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[1.496727] (status_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.496763] (status_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[1.496794] (status_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[1.496823] (status_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 21, column 2\n'}
+[1.496852] (status_interfaces) StderrLine: {'line': b'\n'}
+[1.496881] (status_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.496910] (status_interfaces) StderrLine: {'line': b'\n'}
+[1.496938] (status_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.496972] (status_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.497002] (status_interfaces) StderrLine: {'line': b'    main()\n'}
+[1.497029] (status_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.497060] (status_interfaces) StderrLine: {'line': b'    raise e\n'}
+[1.497088] (status_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.497114] (status_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.497141] (status_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.497167] (status_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[1.497193] (status_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[1.497219] (status_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml':\n"}
+[1.497246] (status_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[1.497272] (status_interfaces) StderrLine: {'line': b'mismatched tag: line 21, column 2\n'}
+[1.503408] (-) TimerEvent: {}
+[1.513233] (status_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.513399] (status_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.513595] (status_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.513686] (status_interfaces) StderrLine: {'line': b'  /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces/package.xml\n'}
+[1.513756] (status_interfaces) StderrLine: {'line': b'  /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces/ament_cmake_core/package.cmake)\n'}
+[1.513826] (status_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[1.513890] (status_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.513963] (status_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.514029] (status_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[1.514094] (status_interfaces) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[1.514158] (status_interfaces) StderrLine: {'line': b'\n'}
+[1.514223] (status_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.514289] (status_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.516550] (status_interfaces) CommandEnded: {'returncode': 1}
+[1.517072] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 1}
+[1.527442] (-) EventReactorShutdown: {}

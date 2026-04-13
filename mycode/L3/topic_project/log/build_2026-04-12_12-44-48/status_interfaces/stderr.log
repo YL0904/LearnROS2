@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:82 (message):
+  rosidl_generate_interfaces() the passed absolute file
+  '/msg/SysytemStatus.msg' must be represented as an absolute base path
+  separated by a colon from the relative path to the interface file
+Call Stack (most recent call first):
+  CMakeLists.txt:13 (rosidl_generate_interfaces)
+
+[0m

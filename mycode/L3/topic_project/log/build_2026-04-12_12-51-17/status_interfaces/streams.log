@@ -1,0 +1,219 @@
+[0.006s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces
+[0.014s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.190s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.209s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.232s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.236s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.740s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.921s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.052s] -- Found PythonExtra: /usr/bin/python3  
+[2.420s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.445s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.464s] -- Added test 'lint_cmake' to check CMake code style
+[2.465s] -- Added test 'xmllint' to check XML markup files
+[2.467s] -- Configuring done (2.5s)
+[2.485s] -- Generating done (0.0s)
+[2.492s] -- Build files have been written to: /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces
+[2.496s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces
+[2.497s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces -- -j24 -l24
+[2.548s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.554s] [  2%] Built target ament_cmake_python_copy_status_interfaces
+[2.667s] running egg_info
+[2.668s] creating status_interfaces.egg-info
+[2.676s] writing status_interfaces.egg-info/PKG-INFO
+[2.676s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[2.676s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[2.676s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.688s] [  2%] Built target status_interfaces__rosidl_generator_type_description
+[2.695s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.701s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.701s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.701s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.719s] [  8%] Built target ament_cmake_python_build_status_interfaces_egg
+[2.851s] [  8%] Built target status_interfaces__cpp
+[2.872s] [ 11%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/sysytem_status__description.c.o[0m
+[2.872s] [ 14%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/sysytem_status__type_support.c.o[0m
+[2.872s] [ 17%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/sysytem_status__functions.c.o[0m
+[2.919s] [ 20%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[2.959s] [ 20%] Built target status_interfaces__rosidl_generator_c
+[2.964s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.964s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.965s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.965s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.967s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.968s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.158s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/sysytem_status__type_support.cpp.o[0m
+[3.160s] [ 44%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/sysytem_status__type_support.cpp.o[0m
+[3.166s] [ 47%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/sysytem_status__type_support.cpp.o[0m
+[3.167s] [ 50%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/sysytem_status__type_support.c.o[0m
+[3.175s] [ 52%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/sysytem_status__type_support.cpp.o[0m
+[3.175s] [ 55%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/sysytem_status__type_support_c.cpp.o[0m
+[3.192s] [ 58%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.195s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[3.216s] [ 61%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[3.221s] [ 61%] Built target status_interfaces__rosidl_typesupport_c
+[3.325s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[3.331s] [ 67%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.356s] [ 67%] Built target status_interfaces__rosidl_typesupport_cpp
+[3.373s] [ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[3.412s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.413s] [ 73%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.462s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[3.463s] [ 73%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.482s] [ 73%] Built target status_interfaces
+[3.500s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.701s] [ 76%] Built target status_interfaces__py
+[3.715s] [ 79%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_sysytem_status_s.c.o[0m
+[3.810s] [ 82%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so[0m
+[3.852s] [ 82%] Built target status_interfaces__rosidl_generator_py
+[3.875s] [ 85%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.876s] [ 88%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.878s] [ 91%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.933s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so[0m
+[3.933s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.933s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.956s] [100%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.957s] [100%] Built target status_interfaces_s__rosidl_typesupport_c
+[3.957s] [100%] Built target status_interfaces_s__rosidl_typesupport_introspection_c
+[3.965s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces -- -j24 -l24
+[3.975s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces
+[3.986s] -- Install configuration: ""
+[3.986s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[3.986s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/msg/SysytemStatus.json
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/sysytem_status.h
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.987s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__type_support.c
+[3.988s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__type_support.h
+[3.988s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__functions.h
+[3.988s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__struct.h
+[3.988s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__description.c
+[3.988s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__functions.c
+[3.989s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[3.989s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[3.989s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[3.989s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[3.989s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.989s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.990s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.990s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.990s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__rosidl_typesupport_fastrtps_c.h
+[3.990s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.990s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.990s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.991s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.991s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.991s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/sysytem_status.hpp
+[3.991s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.992s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__builder.hpp
+[3.992s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__struct.hpp
+[3.992s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__traits.hpp
+[3.992s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__type_support.hpp
+[3.992s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.992s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.992s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.992s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__rosidl_typesupport_fastrtps_cpp.hpp
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.993s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.993s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.993s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.993s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__type_support.c
+[3.993s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__rosidl_typesupport_introspection_c.h
+[3.994s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[3.994s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.994s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[3.994s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[3.994s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.994s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.994s] -- Up-to-date: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.994s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__rosidl_typesupport_introspection_cpp.hpp
+[3.994s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/sysytem_status__type_support.cpp
+[3.994s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.995s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[3.995s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.995s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_sysytem_status_s.c
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_sysytem_status.py
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.996s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[3.997s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py
+[3.997s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.016s] Listing '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...
+[4.016s] Compiling '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...
+[4.016s] Listing '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...
+[4.016s] Compiling '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...
+[4.016s] Compiling '/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_sysytem_status.py'...
+[4.019s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.019s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.019s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[4.019s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[4.020s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[4.020s] -- Set non-toolchain portion of runtime path of "/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/msg/SysytemStatus.idl
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/msg/SysytemStatus.msg
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/path.sh
+[4.020s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/local_setup.bash
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/local_setup.sh
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/package.dsv
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.021s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.022s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[4.022s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[4.022s] -- Installing: /home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces/share/status_interfaces/package.xml
+[4.023s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces

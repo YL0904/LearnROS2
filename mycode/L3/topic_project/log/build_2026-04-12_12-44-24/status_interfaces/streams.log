@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces
+[0.170s] -- The C compiler identification is GNU 13.3.0
+[0.293s] -- The CXX compiler identification is GNU 13.3.0
+[0.319s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.446s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.582s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.732s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.839s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.839s]   By not providing "Findbuiltin_interface.cmake" in CMAKE_MODULE_PATH this
+[0.839s]   project has asked CMake to find a package configuration file provided by
+[0.840s]   "builtin_interface", but CMake did not find one.
+[0.840s] 
+[0.840s]   Could not find a package configuration file provided by "builtin_interface"
+[0.840s]   with any of the following names:
+[0.840s] 
+[0.840s]     builtin_interfaceConfig.cmake
+[0.840s]     builtin_interface-config.cmake
+[0.840s] 
+[0.840s]   Add the installation prefix of "builtin_interface" to CMAKE_PREFIX_PATH or
+[0.840s]   set "builtin_interface_DIR" to a directory containing one of the above
+[0.840s]   files.  If "builtin_interface" provides a separate development package or
+[0.840s]   SDK, be sure it has been installed.
+[0.840s] 
+[0.840s] [0m
+[0.840s] -- Configuring incomplete, errors occurred!
+[0.844s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/nrrr/ros2Learn/mycode/L3/topic_project/install/status_interfaces

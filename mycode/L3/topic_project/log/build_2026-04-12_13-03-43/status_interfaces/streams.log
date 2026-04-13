@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces -- -j24 -l24
+[0.029s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.044s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.091s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.104s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.108s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.127s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.131s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.132s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.132s]   rosidl_generate_interfaces() the passed file 'msg/SysytemStatus.msg'
+[0.132s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.133s]   '/home/nrrr/ros2Learn/mycode/L3/topic_project/src/status_interfaces'
+[0.133s] Call Stack (most recent call first):
+[0.133s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.133s] 
+[0.133s] [0m
+[0.133s] -- Configuring incomplete, errors occurred!
+[0.136s] gmake: *** [Makefile:815：cmake_check_build_system] 错误 1
+[0.137s] Invoked command in '/home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nrrr/ros2Learn/mycode/L3/topic_project/build/status_interfaces -- -j24 -l24

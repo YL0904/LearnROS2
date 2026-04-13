@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'novel_pub_node = demo_python_topic.novel_pub_node:main',
             'novel_sub_node = demo_python_topic.novel_sub_node:main',
+            'novel_sub_node2 = demo_python_topic.novel_sub_node2:main',
         ],
     },
 )
